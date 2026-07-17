@@ -35,6 +35,16 @@ export const PROMO_CODES: PromoCodeDef[] = [
     singleUse: false,
     label: 'Режим Создателя',
   },
+  {
+    // VETERAN100 — награда за «100 часов игры»: гора ресурсов + премиальный Режим Создателя
+    hash: 'ffdc282b',
+    reward: {
+      resources: { gold: 999999, wood: 999999, stone: 999999, food: 999999 },
+      devMode: true,
+    },
+    singleUse: true,
+    label: 'Дар Ветерана: сокровищница ста часов и благословение Создателя',
+  },
 ]
 
 export function findPromo(code: string): PromoCodeDef | undefined {
