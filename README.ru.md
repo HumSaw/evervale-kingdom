@@ -125,8 +125,3 @@ evervale-kingdom/
 
 Распространяется под лицензией [MIT](LICENSE).
 
----
-
-<div align="center">
-Сделано с ❤️ в <a href="https://v0.app">v0</a>
-</div>

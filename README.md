@@ -125,8 +125,3 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 
 Distributed under the [MIT License](LICENSE).
 
----
-
-<div align="center">
-Built with ❤️ and <a href="https://v0.app">v0</a>
-</div>

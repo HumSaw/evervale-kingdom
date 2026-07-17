@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   title: 'Королевство Эвервейл',
   description:
     'Сказочная стратегия: стройте замок, развивайте экономику, нанимайте армию и побеждайте бесконечную череду вражеских королевств.',
-  generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
