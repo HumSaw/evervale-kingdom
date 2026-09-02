@@ -69,6 +69,18 @@ Open [http://localhost:3000](http://localhost:3000) and start building your king
 | `pnpm start` | Serve the production build |
 | `pnpm typecheck` | Run the TypeScript compiler checks |
 
+## Verification
+
+GitHub Actions verifies the repository on every push and pull request to `master`:
+
+```bash
+pnpm install --frozen-lockfile
+pnpm typecheck
+pnpm build
+```
+
+The game systems are intentionally kept in framework-free modules under `lib/systems/`, so deterministic battle, economy, promo, and procedural-generation logic can be inspected independently from the UI.
+
 ## Architecture
 
 The game is fully client-side with a clean separation between data, systems, state, and UI:
@@ -126,8 +138,6 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 
 Distributed under the [MIT License](LICENSE).
 
----
+## Development note
 
-<div align="center">
-Built with ❤️ and <a href="https://v0.app">v0</a>
-</div>
+The interface was initially prototyped with [v0](https://v0.app). The repository documents and maintains the game systems, deterministic simulation, persistence model, and production build as normal source code rather than treating the generated UI as the project itself.
