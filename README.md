@@ -11,6 +11,7 @@ Build your castle, grow your economy, raise an army, and defeat an endless proce
 [English](README.md) · [Русский](README.ru.md)
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white)](https://nextjs.org)
+[![CI](https://github.com/HumSaw/evervale-kingdom/actions/workflows/ci.yml/badge.svg)](https://github.com/HumSaw/evervale-kingdom/actions/workflows/ci.yml)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
